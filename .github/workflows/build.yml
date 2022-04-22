@@ -24,7 +24,7 @@ jobs:
         shell: bash
 
       - name: Checkout codebase
-        uses: actions/checkout@v2.3.4
+        uses: actions/checkout@v3.0.2
 
       - name: Get IPList for China by IPIP.NET
         run: |
